@@ -1,5 +1,11 @@
 # Why Python?
 
+> things I need to complete
+> * stranded on desert island game
+> * 
+
+
+
 * Why learn python over other languages
   * syntax - simple and readable
   * extensive libraries
@@ -183,3 +189,16 @@ print(mixture[-1:2:-1])
 `print(essentials.count("bread")) `
 * it counts how many times the word bread is mentioned/occurs within the tuple
  
+dictionary 
+``` 
+my_dictionary = {}
+
+print(my_dictionary)
+print(type(my_dictionary))
+
+dictionary = dict()
+print(dictionary)
+print(type(dictionary))
+
+```
+
