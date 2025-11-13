@@ -17,8 +17,11 @@ shopping_list[0:0] = ['toffee',  'coffee']
 print(shopping_list)
 #pop(0) removes first item pop() deletes last element
 shopping_list.pop(0)
-print(shopping_list)
-
+#allows for an input to add an item to list
+add_item = input('Add item: ')
+if add_item:
+    shopping_list.append(add_item)
+    if add_item in shopping_list: print(shopping_list)
 
 
 

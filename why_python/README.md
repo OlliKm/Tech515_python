@@ -171,7 +171,7 @@ print(mixture[-1:2:-1])
 
 * Are tuples immutable and what does this mean? 
     * Yes they are immutable which means they cannot be modified
-
+    * you cannot are new items to list 
 * What other data types are immutable?
     *numbers, boolean, tuples, and strings
 
@@ -189,7 +189,33 @@ print(mixture[-1:2:-1])
 `print(essentials.count("bread")) `
 * it counts how many times the word bread is mentioned/occurs within the tuple
  
-dictionary 
+``` 
+Shopping list--- 
+shopping_list = ['eggs', 'bread', 'bananas','biscuits', 'milk']
+print(shopping_list)
+print(shopping_list[0])
+print(shopping_list[4])
+print(type(shopping_list))
+shopping_list[2] = 'rice'
+print(shopping_list[2])
+# another way to make lists - shop_list = list(("apple", "banana", "cherry")) # note the double round-brackets
+shopping_list.append('rice')
+print(shopping_list)
+print(shopping_list.insert(0,'carrots'))
+#adds toffee and coffee onto list placing them first / positon 0
+shopping_list[0:0] = ['toffee',  'coffee']
+print(shopping_list)
+#pop(0) removes first item pop() deletes last element
+shopping_list.pop(0)
+#allows for an input to add an item to list
+add_item = input('Add item: ')
+if add_item:
+    shopping_list.append(add_item)
+    if add_item in shopping_list: print(shopping_list)
+```
+
+
+# dictionary 
 ``` 
 my_dictionary = {}
 
@@ -202,3 +228,31 @@ print(type(dictionary))
 
 ```
 
+# dessert island game
+``` 
+#desert island game
+
+# "Stranded on a Desert Island" game
+# Rationale: Practice tuples
+# Type of exercise: Finish the code
+print("You are stranded on a desert island. You can take only THREE items.")
+essential_item1 = input("What is an essential item you would take? ")
+essential_item2 = input("What is an essential item you would take? ")
+essential_item3 = input("What is an essential item you would take? ")
+# save the items as a tuple
+essentials_tuple = (essential_item1, essential_item2, essential_item3)
+
+# rewrite over the tuple including the new item to keep same name but give new id
+
+print("Here are your items as a tuple:", essentials_tuple)
+print("")
+print("I lied. You can take one more item.")
+essential_item4 = input("What is one more essential item you would take? ")
+
+#creaitng a new tuple with a new id
+essentials_tuple = (essential_item1, essential_item2, essential_item3, essential_item4)
+
+print("Here are your items as a tuple (with the 4th item added):", essentials_tuple)
+```
+
+## waiter help / ordering task

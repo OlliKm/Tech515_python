@@ -1,20 +1,3 @@
-mixture = [1, 2, 3,"one", "two", "three"]
-
-print(mixture)
-#print the 2 and 3rd item in list
-print(mixture[1:3])
-# [2:] is saying print everything onwards starting from number 2 works backwords to [:4]
-print(mixture[2:])
-#prints every second element from list
-B = mixture[::2]
-print(B)
-#
-C = mixture[1:6:3]
-print(C)
-print("new type")
-#
-print(mixture[-1:2:-1])
-
 #desert island game
 
 # "Stranded on a Desert Island" game
