@@ -18,11 +18,11 @@ for data in embedded_lists:
 print("New list")
 
 #cant get this to add 3
-data2 = embedded_lists
 for data2 in embedded_lists:
     print(data2)
-    print(data2[0])
-    print(data2[1])
+    for item in data2:
+        print(item)
+
 #result
 # [1, 2, 3]
 # 1
@@ -32,11 +32,21 @@ for data2 in embedded_lists:
 # 5
 print("Dict data")
 
-name = dict_data
-for name in dict_data:
-    print(name)
-print("loop through dictionairy")
+#try simplicity the way its done
+for key in dict_data:
+    print(dict_data[key])
 
-name2 = dict_data
-print(name2 )
+print("\n part 6")
+
+for data in dict_data:
+    print(dict_data[data]["name"])
+    print(dict_data[data]["money"])
+
+print("question 7")
+
+for data3 in dict_data:
+    print(dict_data[data3]["money"])
+
+
+
 

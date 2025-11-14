@@ -13,7 +13,7 @@ def Divide(x,y):
         return "Error, cant divide by zero"
     return x/y
 
-#defining advanced operations
+#defining advanced operations - not done yet
 
 #chat-text - what will be presented to user
 print("Welcome to the calculator")
