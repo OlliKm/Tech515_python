@@ -41,7 +41,7 @@ def menu():
 
 starter_choice = input("What would you like for starters? ")
 
- if starter_choice in starters:
+if starter_choice in starters:
     print("good choice")
  else:
     print("sorry, that's not on the menu.")

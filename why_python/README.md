@@ -1,7 +1,8 @@
 # Why Python?
 
 > things I need to complete
-> * stranded on desert island game
+> * Hero Story
+> * frozen sets 
 > * 
 
 

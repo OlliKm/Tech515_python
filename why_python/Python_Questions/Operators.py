@@ -14,7 +14,7 @@ print(a * b)
 print(a / x )
 #Floor division divides 2 numbers and rounds to nearest whole number
 print(a // b)
-#Modulus/percent - finds the remainder of the decision
+#Modulus/percent - finds the remainder of the division
 print(a % x)
 #exponentation - base number multiplied by itself a number of times
 print(x ** b)
