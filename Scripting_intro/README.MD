@@ -24,3 +24,5 @@
 * Automating CRUD
 * Custom scripts for config management
 
+## API Learning
+

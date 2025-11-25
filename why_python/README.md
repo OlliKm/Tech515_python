@@ -1,7 +1,6 @@
 # Why Python?
 
 > things I need to complete
-> * Hero Story 100%
 > * frozen sets 50%
 > * Use while loops with and int 0%
 > * Use 'while loop' to verify user 'age' input 0%
